@@ -114,9 +114,6 @@ class AddNewEntry : AppCompatActivity() {
     }
 
     private fun showStartTimeDialog(time: List<String>) {
-        val calendar = Calendar.getInstance()
-        val hour = calendar.get(Calendar.HOUR_OF_DAY)
-        val minute = calendar.get(Calendar.MINUTE)
         val timePickerDialog = TimePickerDialog(
             this,
             { _, selectedHour, selectedMinute ->
@@ -127,8 +124,8 @@ class AddNewEntry : AppCompatActivity() {
                 }
                 startTime.text = selectedTime
             },
-            hour,
-            minute,
+            time[0].toInt(),
+            time[1].toInt(),
             true
         )
         timePickerDialog.show()
