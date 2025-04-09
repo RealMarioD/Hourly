@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/noHoursText"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="@string/noSavedHours"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="768dp"
+        android:layout_above="@+id/testButton"
+        android:layout_below="@+id/noHoursText"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="37dp"
+        android:onClick="switchActivity"
+        android:text="@string/addButton"
+        android:textSize="16sp" />
+
+</RelativeLayout>

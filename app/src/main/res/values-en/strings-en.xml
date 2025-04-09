@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hourly</string>
+    <string name="noSavedHours">You haven\'t added any hours yet!</string>
+    <string name="addButton">Add</string>
+    <string name="changeButton">Change</string>
+    <string name="dateText">Date:</string>
+    <string name="startTimeText">Start Time:</string>
+    <string name="endTimeText">End Time:</string>
+    <string name="wageText">Hourly Wage:</string>
+    <string name="totalHoursText">Total Hours:</string>
+    <string name="totalPayText">Total Pay:</string>
+    <string name="entrySavedToast">Entry saved!</string>
+    <string name="startTimeError">Start time must be before end time!</string>
+    <string name="endTimeError">End time must be after start time!</string>
+    <string name="wageError">Please provide a valid wage!</string>
+    <string name="alreadyExistsWindowTitle">Already Exists!</string>
+    <string name="alreadyExistsWindowText">You already have recorded hours on this date. Would you like to overwrite them?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deleteButton">Delete</string>
+    <string name="ruSure">Are you sure?</string>
+    <string name="editText">Edit</string>
+    <string name="saveText">Save</string>
+</resources>

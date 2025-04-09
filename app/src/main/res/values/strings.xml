@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hourly</string>
+    <string name="noSavedHours">Még nem adtál hozzá órákat!</string>
+    <string name="addButton">Hozzáadás</string>
+    <string name="changeButton">Módosítás</string>
+    <string name="dateText">Dátum:</string>
+    <string name="startTimeText">Kezdés:</string>
+    <string name="endTimeText">Végzés:</string>
+    <string name="wageText">Órabér:</string>
+    <string name="totalHoursText">Dolgozott órák:</string>
+    <string name="totalPayText">Fizetés:</string>
+    <string name="entrySavedToast">Elmentve!</string>
+    <string name="startTimeError">Kezdés idő nem lehet végzés idő után!</string>
+    <string name="endTimeError">Végzés idő nem lehet kezdés idő előtt!</string>
+    <string name="wageError">Adj meg egy érvényes órabért!</string>
+    <string name="alreadyExistsWindowTitle">Ez már létezik!</string>
+    <string name="alreadyExistsWindowText">Ezen a dátumon már vanbak feljegyzett óráid, szeretnéd felülírni őket?</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="deleteButton">Törlés</string>
+    <string name="ruSure">Biztos?</string>
+    <string name="editText">Szerkesztés</string>
+    <string name="saveText">Mentés</string>
+</resources>
